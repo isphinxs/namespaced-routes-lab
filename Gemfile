@@ -11,6 +11,7 @@ gem 'sassc'
 gem "actionview", ">= 5.0.7.2"
 
 group :development, :test do
+  gem "byebug"
   gem 'pry'
   gem 'capybara'
   gem 'rspec-rails'
